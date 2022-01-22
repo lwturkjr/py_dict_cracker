@@ -7,7 +7,8 @@ hash_to_crack = input("Hash to crack: ").lower()
 hash_type = input("Type of Hash: ").lower()
 #salt_file = input("Salt File: ") # If you have a list of known salts, you can uncomment this
 
-dict_file = open(dict_file, "r", encoding='latin-1') # rockyou.txt is encoded with latin-1, also works with top10k, you might need to change encoding for other dictionary files.
+dict_file = open(dict_file, "r", encoding='latin-1')
+# rockyou.txt is encoded with latin-1, (not UTF-8), works fine with top10k(included), you might need to change encoding for other dictionary files.
 dict_file_lines = dict_file.readlines()
 
 #salt_file = open(salt_file, "r")
