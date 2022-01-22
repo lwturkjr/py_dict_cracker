@@ -1,4 +1,4 @@
-# After working on Free Code Camp sha-1 password cracker challenge, then threw this together.
+# After working on Free Code Camp sha-1 password cracker challenge, I threw this together.
 import hashlib
 
 print("Valid hash types are: md5, sha1, sha256, sha512, sha3_256, sha3_512, blake2s, blake2b \n")
